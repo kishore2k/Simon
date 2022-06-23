@@ -1,0 +1,141 @@
+/* index.html style sheet */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+  background-color:#EC255A;
+  padding: 0;
+  padding-bottom: 2rem;
+}
+/* navigation bar */
+.nav-link {
+  margin-left:0.5rem;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+.nav-link{
+  font-weight: bold;
+}
+.navbar{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #FAEDF0;
+}
+
+
+.level-bar{
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+}
+
+.heading{
+  font-size: 5rem;
+  font-family: 'Bungee', cursive;
+}
+
+/* button customisation */
+
+.block{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 20%;
+  border-width: 0.4rem;
+}
+/* .block:active{
+  transform: translateY(5px);
+  opacity: 0.5;
+} */
+.left{
+  text-align: right;
+
+}
+.right{
+  text-align: left;
+}
+.top{
+  margin-bottom:0.7rem;
+}
+.bottom{
+  margin-top: 0.7rem;
+}
+#red{
+  background-color:#FF1700 ;
+}
+#blue{
+  background-color:#0E3EDA ;
+}
+#yellow{
+  background-color:#FFE400 ;
+}
+#green{
+  background-color:#06FF00 ;
+}
+
+
+/* GAMEPLAY STYLE SHEET */
+.gameplay-body{
+  background-color: #FAEDF0;
+}
+.gameplay-content
+{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.gameplay-heading{
+  margin-top: 2rem;
+}
+.gameplay-list,.gameplay-para{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2rem;
+}
+
+/* DEVELOPER STYLE SHEET  */
+.developer-body{
+  background-color: #9772FB;
+}
+
+.development-content
+{
+  text-align: center;
+  padding: 1% 20%;
+}
+
+.developer-about{
+  padding-left: 25%;
+  padding-right: 25%;
+  clear: left;
+}
+
+.developer-details
+{
+  margin-bottom: 2rem;
+}
+
+.prof-pic{
+  width: 25%;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .level-bar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+  .heading{
+    font-size: 2rem;
+  }
+  .blok{
+    text-align: center;
+  }
+  .block{
+    height:2rem;
+    border-radius: 0;
+  }
+
+}

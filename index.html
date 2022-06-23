@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+  <link rel="icon" href="img/fav.png">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">The Simon Game</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="gameplay.html" class="nav-link">GamePlay</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link">Game</a></li>
+          <li class="nav-item"><a href="developer.html" class="nav-link">Developer</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="game-content">
+  <div class="level-bar">
+    <h1 class="heading">Press Any Key to Start</h1>
+  </div>
+
+  <div class="contaner-fluid game-block">
+    <div class="row">
+      <div class="col-md-6 left top blok">
+        <button type="button" class="block" id="red" name="button"></button>
+      </div>
+      <div class="col-md-6 right blok">
+        <button type="button" class="block" id="yellow" name="button"></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 left bottom blok">
+        <button type="button" class="block" id="blue" name="button"></button>
+      </div>
+      <div class="col-md-6 right bottom blok">
+        <button type="button" class="block" id="green" name="button"></button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
